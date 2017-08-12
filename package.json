@@ -10,8 +10,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "sw": "node workbox-build.js",
-    "build:prod": "ng build --prod --aot",
-    "deploy:ghp": "npm run build:prod && cd docs && cp index.html 404.html && cd.. && git remote add origin https://github.com/tariton/superstore.git && git add -A && git commit -am 'new deploy' && git push origin master --force"
+    "build:prod": "ng build --prod",
+    "deploy:ghp": "npm run build:prod && cd docs && cp index.html 404.html && cd.. && git remote add origin https://github.com/tariton/superstore.git && git add -A && git commit -am \"new deploy\" && git push origin master --force"
   },
   "private": true,
   "dependencies": {
