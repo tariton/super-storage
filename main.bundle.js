@@ -874,7 +874,7 @@ var _a, _b;
 /***/ "../../../../../src/app/pages/error-404-page/error-404-page.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<section class=\"hero is-warning is-fullheight\">\n  <div class=\"hero-body\">\n    <div class=\"container\">\n      <h1 class=\"title is-4\">\n        Página não encontrada\n      </h1>\n      <br />\n      <h2 class=\"subtitle is-6\">\n        <a routerLink=\"/\">\n        <span class=\"icon\">\n          <i class=\"fa fa-long-arrow-left\"></i>\n        </span>\n        <span>\n          Voltar\n        </span>\n        </a>\n      </h2>\n    </div>\n  </div>\n</section>\n"
+module.exports = "<!-- <section class=\"hero is-warning is-fullheight\">\n  <div class=\"hero-body\">\n    <div class=\"container\">\n      <h1 class=\"title is-4\">\n        Página não encontrada\n      </h1>\n      <br />\n      <h2 class=\"subtitle is-6\">\n        <a routerLink=\"/\">\n        <span class=\"icon\">\n          <i class=\"fa fa-long-arrow-left\"></i>\n        </span>\n        <span>\n          Voltar\n        </span>\n        </a>\n      </h2>\n    </div>\n  </div>\n</section> -->\n"
 
 /***/ }),
 
@@ -1001,7 +1001,7 @@ var _a;
 /***/ "../../../../../src/app/pages/product-page/product-page.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n  <app-product-card [product]=\"product\" [view]=\"true\"></app-product-card>\n</div>"
+module.exports = " <div class=\"container\">\n  <app-product-card [product]=\"product\" [view]=\"true\"></app-product-card>\n</div> "
 
 /***/ }),
 
