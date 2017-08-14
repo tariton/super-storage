@@ -11,8 +11,6 @@ export class HomePageComponent implements OnInit {
 
   constructor(public productsService: ProductsService) { }
 
-  ngOnInit() {
-    this.productsService.list().then((products) => console.log(products));
-  }
+  ngOnInit() {  }
 
 }
