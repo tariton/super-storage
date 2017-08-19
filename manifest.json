@@ -4,7 +4,7 @@
     "name": "Super Storage",
     "scope": "/",
     "display": "standalone",
-    "start_url": "/?utm_source=pwa",
+    "start_url": "/super-storage/?utm_source=pwa",
     "short_name": "SuperStorage",
     "theme_color": "#f15b27",
     "description": "",
