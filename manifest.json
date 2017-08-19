@@ -2,7 +2,7 @@
     "dir": "ltr",
     "lang": "pt",
     "name": "Super Storage",
-    "scope": "/super-storage/",
+    "scope": "/",
     "display": "standalone",
     "start_url": "/?utm_source=pwa",
     "short_name": "SuperStorage",
